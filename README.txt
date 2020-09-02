@@ -1,0 +1,1 @@
+I recommend using Android Studio for viewing and compiling this project.
