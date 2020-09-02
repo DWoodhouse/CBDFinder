@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login">
+
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/unilogo"/>
+
+    <ImageView
+        android:id="@+id/ic_menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_menu"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="30dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/login_form_details"/>
+
+    <TextView
+        android:layout_width="219dp"
+        android:layout_height="203dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="170dp"
+        android:text="This app was developed as a university project"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="590dp"
+        android:src="@drawable/whitelogo" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="196dp"
+    android:background="@drawable/bg_login"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="111dp"
+        android:layout_height="101dp"
+        android:src="@drawable/whitelogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="CBD Finder"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/login_form_details"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All UK CBD stores in one place"
+        android:textColor="@color/login_form_details" />
+
+</LinearLayout>
